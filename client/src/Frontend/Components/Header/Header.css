@@ -1,0 +1,124 @@
+.header{
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    background: linear-gradient(
+        to bottom,
+        rgba(78, 73, 73, 0.731), 
+        transparent
+      );
+    top: 0;
+    left: 0;
+    z-index: 1111111;
+}
+
+.header_shrink{
+    background: #343444;
+    box-shadow: 3px 3px 6px -3px #e250e5;
+}
+
+.navgation{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Nav_list{
+    display: flex;
+    align-items: center;
+    column-gap: 2.7rem;
+    margin-bottom: 0;
+}
+
+.Nav_items a{
+    text-decoration: none;
+    color: #fff ;
+}
+
+.Nav_items a:hover{
+    color: #E250E5;
+}
+
+.active{
+    color: #E250E5
+}
+
+.logo h2{
+    background: linear-gradient(-45deg, #4B50E6, #E250E5,#4b50e6);
+    background-size: 100% 100%;
+    background-clip: text;
+    -webkit-text-stroke: 3px transparent;
+    -webkit-text-fill-color: #14141f;
+    margin-bottom: 0;
+}
+
+.nav_right .btn{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border: 1px solid #5142FC;
+    border-radius: 50px;
+}
+
+.nav_right .btn a{
+    color: #fff;
+    text-decoration: none;
+    font-size: .8rem;
+}
+
+.nav_right .btn span i{
+    color: #fff;
+}
+
+.nav_right .btn a:hover{
+    color: #fff;
+}
+
+.mobile_menu{
+    color:#fff;
+    font-size: 1.3rem;
+    display: none;
+}
+
+@media only screen and (max-width:768px){
+    .Nav_menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(#14141f83, #14141f83);
+        z-index: 222222;
+        display: none;
+    }
+
+    .active_menu{
+        display: block;
+    }
+
+    .Nav_list{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background: #343444;
+        z-index: 333333;
+        flex-direction: column;
+        padding-top: 40px;
+
+    }
+
+    .mobile_menu{
+        display: block;
+    }
+    .btn {
+        padding: 4px 25px !important;
+    }
+
+    .btn a {
+        font-size: 0.7rem !important;
+    }
+}

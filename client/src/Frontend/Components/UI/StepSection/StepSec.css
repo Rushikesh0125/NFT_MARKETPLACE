@@ -1,0 +1,36 @@
+
+.Single_step_item{
+    background: #343434;
+    width: 250px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Sec_title{
+    color: #fff;
+}
+
+.step_item_content h5 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.step_item_content h5 p{
+    color: #fff;
+    opacity: 70%;
+}
+
+.Single_step_item span i{
+    color: #fff;
+    padding: 10px;
+    font-size: 1.4rem;
+    background: #5142fc;
+    border-radius: 30px;
+}
+
+.step_item_content{
+    margin-top: 15px;
+}

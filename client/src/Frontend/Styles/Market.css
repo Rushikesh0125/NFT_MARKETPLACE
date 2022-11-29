@@ -1,0 +1,11 @@
+.all_cat_fil select , .all_item_fil select, .filter_right select{
+    padding: 8px 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+    background: #343444;
+    color: #fff;
+    border-radius: 5px;
+    align-items: flex-start;
+}
