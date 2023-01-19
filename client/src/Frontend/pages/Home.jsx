@@ -1,18 +1,3 @@
-import React from "react";
-import HeroSection from '../Components/UI/HeroSection'
-import LiveAuction  from "../Components/UI/LiveAuction/LiveAuction";
-import Sellersec from "../Components/UI/SellerSection/SellerSection";
-import TrendingSec from "../Components/UI/TrendingSection/TredningSec";
-import StepSec from "../Components/UI/StepSection/StepSection";
-
-const Home = () =>{
-    return<>
-      <HeroSection/>
-      <LiveAuction/>
-      <Sellersec/>
-      <TrendingSec/>
-      <StepSec/>
-    </>
-}
-
-export default Home;
+version https://git-lfs.github.com/spec/v1
+oid sha256:42121790ece9db681b8e3cf17ee74e8b3c1886bb442a0a042adf07673fd89768
+size 521

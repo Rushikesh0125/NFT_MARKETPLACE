@@ -1,14 +1,3 @@
-{
-  "name": "nft_project",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@openzeppelin/contracts": "^4.8.0"
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:29a9ad87c16bd712bc2051a28d156a36b32ca24169ac0612b92698a412447252
+size 272

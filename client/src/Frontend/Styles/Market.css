@@ -1,11 +1,3 @@
-.all_cat_fil select , .all_item_fil select, .filter_right select{
-    padding: 8px 25px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    font-size: 0.9rem;
-    background: #343444;
-    color: #fff;
-    border-radius: 5px;
-    align-items: flex-start;
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8e9d3a71c42b744b6b4219975e929be7734b8dcdee0609503e5c0f1657dd7321
+size 266

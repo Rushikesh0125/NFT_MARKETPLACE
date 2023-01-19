@@ -1,15 +1,3 @@
-import React from "react";
-import './CommonSection.css';
-import {Container} from 'reactstrap';
-
-const CommonSection = ({title}) => {
-    return(
-      <section className="common__section">
-        <Container className="text-center">
-          <h2>{title}</h2>
-        </Container>
-      </section>
-    );
-}
-
-export default CommonSection;
+version https://git-lfs.github.com/spec/v1
+oid sha256:692bdccbb9e64b9e313179b1a7144d64b48c1e4596f315f50cdf994e79b13e72
+size 337
